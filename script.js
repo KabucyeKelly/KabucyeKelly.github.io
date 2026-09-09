@@ -20,13 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // ---- Contact form ----
-  // To make this send straight to your Gmail inbox (no email app popup):
-  // 1. Go to formspree.io, sign up free with kel.kabucye@gmail.com
-  // 2. Create a form, copy the endpoint URL (looks like https://formspree.io/f/xxxxxxxx)
-  // 3. Paste it below, replacing the placeholder string.
-  // Until you do that, the form falls back to opening the visitor's email app instead.
-  var FORM_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+
+  var FORM_ENDPOINT = 'https://formspree.io/f/mbgjqgpl';
 
   var form = document.getElementById('contact-form');
   if (form) {

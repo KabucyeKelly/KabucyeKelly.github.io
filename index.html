@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelly Kabucye — Software Engineering Student</title>
+<meta name="description" content="Portfolio of Kelly Kabucye, software engineering student at AUCA, Kigali, Rwanda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">Kelly Kabucye</a>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="Kelly_Kabucye_CV.pdf" target="_blank" rel="noopener" class="btn btn-primary btn-small">Resume</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Software Engineering Student · AUCA</p>
+      <h1>Building full systems, from Java backends to the data behind them.</h1>
+      <p class="hero-bio">
+        I'm Kelly, a software engineering student in Kigali, Rwanda. I work mainly
+        in Java — and I'm branching into Python, data analytics, and networking
+        fundamentals along the way.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-outline">Contact me</a>
+      </div>
+      <p class="hero-stack">Java &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; SQL &nbsp;·&nbsp; Python &nbsp;·&nbsp; Power BI</p>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/kelly-photo.jpg" alt="Kelly Kabucye">
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <p class="section-eyebrow">Selected work</p>
+    <h2>A few things I've built</h2>
+
+    <div class="filter-bar" id="skill-filter">
+      <button type="button" class="filter-chip active" data-filter="all">All</button>
+      <button type="button" class="filter-chip" data-filter="java">Java</button>
+      <button type="button" class="filter-chip" data-filter="data">Data &amp; analytics</button>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project" data-cat="java">
+        <span class="project-tag">Coursework</span>
+        <h3>Airport Check-In &amp; Boarding System</h3>
+        <p>A client/server booking and staff-management system built for a distributed systems exam. Tracked down and fixed defects in booking creation, duplicate code generation, and CRUD operations across the DAO layer.</p>
+        <div class="tags"><span>Java</span><span>RMI</span><span>Swing</span><span>Hibernate</span></div>
+      </article>
+
+      <article class="project" data-cat="java">
+        <span class="project-tag">Coursework</span>
+        <h3>Automated Test Suite</h3>
+        <p>A Maven-based Java testing environment built for a software testing techniques course, with unit tests targeting boundary-condition logic.</p>
+        <div class="tags"><span>Java</span><span>Maven</span><span>JUnit</span></div>
+      </article>
+
+      <article class="project" data-cat="data">
+        <span class="project-tag">Repo</span>
+        <h3>PL/SQL Window Functions</h3>
+        <p>SQL joins and window functions applied to a real case study for the Umwalimu SACCO.</p>
+        <div class="tags"><span>SQL</span><span>Oracle</span></div>
+        <a href="https://github.com/KabucyeKelly/plsql_window_functions_27113_kellykabucye" target="_blank" rel="noopener" class="project-link">View repo →</a>
+      </article>
+
+      <article class="project" data-cat="data">
+        <span class="project-tag">Repo</span>
+        <h3>Uber Fare Analysis</h3>
+        <p>Exploring an Uber fares dataset in Power BI to surface pricing and demand patterns.</p>
+        <div class="tags"><span>Power BI</span></div>
+        <a href="https://github.com/KabucyeKelly/uber-fare-analysis-powerbi" target="_blank" rel="noopener" class="project-link">View repo →</a>
+      </article>
+
+      <article class="project" data-cat="data">
+        <span class="project-tag">Capstone</span>
+        <h3>Agriculture Yield Analysis</h3>
+        <p>A capstone project analyzing the factors behind maize and bean yields in Rwanda, 2000–2027.</p>
+        <div class="tags"><span>Python</span><span>Power BI</span></div>
+        <a href="https://github.com/KabucyeKelly/agriculture-yield-analysis-final-project" target="_blank" rel="noopener" class="project-link">View repo →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="about" class="section section-soft">
+    <p class="section-eyebrow">About</p>
+    <h2>A bit about how I got here</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a software engineering student at the Adventist University of Central
+          Africa, working mostly in Java, SQL, and Python. Most of what I've built
+          has come out of coursework, but I try to take each assignment past the
+          minimum — a check-in system that only handles the happy path isn't
+          finished, so I spend a lot of time on the parts that break.
+        </p>
+        <p>
+          Java is where I'm strongest, but I've been branching out: picking up
+          Python, digging into data analytics with SQL and Power BI, and getting
+          hands-on with networking fundamentals through a run of Cisco coursework.
+        </p>
+        <p>
+          Until April 2026 I also taught math and physics to grades 7–12 at
+          Excella High School in Kigali — a role that had me constantly
+          re-explaining things in simpler terms, a habit that carries over into
+          how I write code and documentation.
+        </p>
+      </div>
+      <div class="about-edu">
+        <h4>Education</h4>
+        <div class="edu-item">
+          <div class="edu-line"><span>Adventist University of Central Africa</span><span class="edu-date">2024 – present</span></div>
+          <p>BTech, Computer Software Engineering</p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-line"><span>Nu Vision High School</span><span class="edu-date">2017 – 2022</span></div>
+        </div>
+        <h4 class="edu-h4-spaced">Certifications</h4>
+        <div class="edu-item"><div class="edu-line"><span>Introduction to Network Operations — Internet Society</span><span class="edu-date">Nov 2025</span></div></div>
+        <div class="edu-item"><div class="edu-line"><span>Networking Basics — Cisco</span><span class="edu-date">Jan 2025</span></div></div>
+        <div class="edu-item"><div class="edu-line"><span>Networking Devices and Initial Configuration — Cisco</span><span class="edu-date">Jan 2025</span></div></div>
+        <div class="edu-item"><div class="edu-line"><span>Computer Hardware Basics — Cisco</span><span class="edu-date">Jun 2024</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <p class="section-eyebrow">Skills</p>
+    <h2>What I work with</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>Primary</h4>
+        <p>Java, RMI, Hibernate, Spring Boot</p>
+      </div>
+      <div class="skill-card">
+        <h4>Exploring</h4>
+        <p>Python, data analytics</p>
+      </div>
+      <div class="skill-card">
+        <h4>Testing</h4>
+        <p>Maven, JUnit</p>
+      </div>
+      <div class="skill-card">
+        <h4>Data</h4>
+        <p>SQL / PL-SQL, Power BI, Oracle Database</p>
+      </div>
+      <div class="skill-card">
+        <h4>Networking</h4>
+        <p>Cisco fundamentals, device configuration, hardware basics</p>
+      </div>
+      <div class="skill-card">
+        <h4>Tools</h4>
+        <p>Git, GitHub, VS Code, Android Studio</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-soft">
+    <p class="section-eyebrow">Contact</p>
+    <h2>Have a project or opportunity in mind?</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>I'm open to junior software engineering, internship, and collaboration opportunities. Feel free to reach out directly, or send a message using the form.</p>
+        <ul class="contact-list">
+          <li><span class="contact-label">Email</span><a href="mailto:kel.kabucye@gmail.com">kel.kabucye@gmail.com</a></li>
+          <li><span class="contact-label">Phone</span><a href="tel:+250790804332">+250 790 804 332</a></li>
+          <li><span class="contact-label">GitHub</span><a href="https://github.com/KabucyeKelly" target="_blank" rel="noopener">github.com/KabucyeKelly</a></li>
+          <li><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/kelly-kabucye-70b6822a7" target="_blank" rel="noopener">linkedin.com/in/kelly-kabucye-70b6822a7</a></li>
+        </ul>
+      </div>
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" placeholder="Your name" autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" placeholder="you@example.com" autocomplete="email">
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="4" placeholder="Let's talk about..."></textarea>
+        </div>
+        <p class="form-error" id="cf-error" role="alert" hidden></p>
+        <p class="form-success" id="cf-success" role="status" hidden>Thanks — your message is on its way!</p>
+        <button type="submit" class="btn btn-primary" id="cf-submit">Send message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© Kelly Kabucye. Kigali, Rwanda.</p>
+  <div class="footer-links">
+    <a href="https://github.com/KabucyeKelly" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/kelly-kabucye-70b6822a7" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:kel.kabucye@gmail.com">Email</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
